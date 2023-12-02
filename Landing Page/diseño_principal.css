@@ -1,0 +1,142 @@
+
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+        background-image: url('../Fotos/reno.jpg');/* edit foto de pagina*/
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* Fijar la imagen de fondo para que se desplace con el contenido */
+        background-size:cover;
+
+    }
+
+
+
+    /* Estilos de la barra de navegacion */
+nav {
+    background-color: #43B763;/* edit color*/
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 50px; /*Tamaño del logo*/
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.btn-login{
+    background-color: #65D103;/* edit color inicio de sesion*/
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn-register{
+    background-color: #65D103;/* edit color registrate*/
+    color: white;
+    border: none;
+    width: 137px;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+
+/* diseño de la presentacion */
+.green-box{
+    width: 588px;
+    height: 483px;
+    margin-left: 90px;
+    flex-shrink: 1;
+    background: #65D103;/* edit color del colo rde la caja grande   */
+    display: flex;
+    border-radius: 20px;
+}
+.head-text{
+    color: #FFF;
+
+    text-align: center;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    padding-top: 20px;
+}
+.body-text{
+    color: #FFF;
+    text-align: center;
+    font-family: SF PRO;
+    font-size: 24px;
+    margin-top: 30px;
+    padding: 30px;
+    font-style: normal;
+    font-weight: 590;
+    line-height: normal;
+}
+
+.blue-box{
+    display: flex;
+    width: 195px;
+    height: 84px;
+    margin-left: 190px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    flex-shrink: 0;
+    background: #2E1574;/* edit color del color, auqnue el azul tranmite seguridad en botones  */
+    border-radius: 4px;
+}
+.contact{
+    color: #FFF;
+    background-color: transparent;
+    font-family: SF Pro;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
+
+ /* Estilo del pie de pagina */
